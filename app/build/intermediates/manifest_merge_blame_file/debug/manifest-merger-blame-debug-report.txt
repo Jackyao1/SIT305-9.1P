@@ -1,0 +1,193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.Jack9_1p"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:9:5-79
+11-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:9:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:10:5-76
+12-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:10:22-73
+13    <uses-permission android:name="android.permission.INTERNET" /> <!-- Include required permissions for Google Maps API to run. -->
+13-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:11:5-67
+13-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:11:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <application
+26-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:5:5-36:19
+27        android:allowBackup="true"
+27-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:6:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\Lovey\.gradle\caches\transforms-3\78c077d437fb427ab9708ed392f0c5bf\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:7:9-43
+31        android:label="Jack_9_1P"
+31-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:8:9-34
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:9:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:10:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.Jack_7_1P" >
+35-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:11:9-47
+36        <meta-data
+36-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:13:9-15:71
+37            android:name="com.google.android.geo.API_KEY"
+37-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:14:13-58
+38            android:value="AIzaSyD40FKUuzbLCJvYk3BeDwskN-1K_l8MH70" />
+38-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:15:13-68
+39
+40        <activity
+40-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:17:9-20:39
+41            android:name="com.example.Jack7_1P.ShowOnMap"
+41-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:18:13-38
+42            android:exported="false"
+42-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:19:13-37
+43            android:label="Showmap" />
+43-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:20:13-36
+44        <activity
+44-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:21:9-23:40
+45            android:name="com.example.Jack7_1P.ShowAdvert"
+45-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:22:13-39
+46            android:exported="false" />
+46-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:23:13-37
+47        <activity
+47-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:24:9-26:40
+48            android:name="com.example.Jack7_1P.CreateAdvert"
+48-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:25:13-41
+49            android:exported="false" />
+49-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:26:13-37
+50        <activity
+50-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:27:9-35:20
+51            android:name="com.example.Jack7_1P.MainActivity"
+51-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:28:13-41
+52            android:exported="true" >
+52-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:29:13-36
+53            <intent-filter>
+53-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:30:13-34:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:31:17-69
+54-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:31:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:33:17-77
+56-->C:\Users\Lovey\Desktop\305 9.1 final clean\app\src\main\AndroidManifest.xml:33:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:14:9-20:20
+60            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+60-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:15:13-91
+61            android:exported="false"
+61-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:16:13-37
+62            android:label="@string/places_autocomplete_label"
+62-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:17:13-62
+63            android:theme="@style/PlacesAutocompleteOverlay"
+63-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:18:13-61
+64            android:windowSoftInputMode="adjustResize" >
+64-->[com.google.android.libraries.places:places:2.6.0] C:\Users\Lovey\.gradle\caches\transforms-3\0029fab04267ec246b5af2fba33f81ce\transformed\places-2.6.0\AndroidManifest.xml:19:13-55
+65        </activity> <!-- Needs to be explicitly declared on P+ -->
+66        <uses-library
+66-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+67            android:name="org.apache.http.legacy"
+67-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+68            android:required="false" />
+68-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Lovey\.gradle\caches\transforms-3\4f43e2163119751277da6b410bc973e8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Lovey\.gradle\caches\transforms-3\1d1e972ca78dafbe8a01b09db8dac2a7\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Lovey\.gradle\caches\transforms-3\1d1e972ca78dafbe8a01b09db8dac2a7\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Lovey\.gradle\caches\transforms-3\1d1e972ca78dafbe8a01b09db8dac2a7\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Lovey\.gradle\caches\transforms-3\1d1e972ca78dafbe8a01b09db8dac2a7\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\ed5bfe973c6ca2ccf644e3cfb17b7390\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\ed5bfe973c6ca2ccf644e3cfb17b7390\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\ed5bfe973c6ca2ccf644e3cfb17b7390\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\3df8fd482ae380b0ca76a2a4a688b0ff\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\3df8fd482ae380b0ca76a2a4a688b0ff\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+81            android:authorities="com.example.Jack9_1p.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\3df8fd482ae380b0ca76a2a4a688b0ff\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\3df8fd482ae380b0ca76a2a4a688b0ff\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\3df8fd482ae380b0ca76a2a4a688b0ff\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\3df8fd482ae380b0ca76a2a4a688b0ff\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lovey\.gradle\caches\transforms-3\3df8fd482ae380b0ca76a2a4a688b0ff\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lovey\.gradle\caches\transforms-3\7e536dd4f47f2e7e1becef1fd3f739ce\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lovey\.gradle\caches\transforms-3\7e536dd4f47f2e7e1becef1fd3f739ce\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lovey\.gradle\caches\transforms-3\7e536dd4f47f2e7e1becef1fd3f739ce\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+89        </provider>
+90
+91        <service
+91-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Lovey\.gradle\caches\transforms-3\a5968675615563463e1a825cf31c5123\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+92            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+92-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Lovey\.gradle\caches\transforms-3\a5968675615563463e1a825cf31c5123\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+93            android:exported="false" >
+93-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Lovey\.gradle\caches\transforms-3\a5968675615563463e1a825cf31c5123\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+94            <meta-data
+94-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Lovey\.gradle\caches\transforms-3\a5968675615563463e1a825cf31c5123\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+95                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+95-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Lovey\.gradle\caches\transforms-3\a5968675615563463e1a825cf31c5123\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+96                android:value="cct" />
+96-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Lovey\.gradle\caches\transforms-3\a5968675615563463e1a825cf31c5123\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+97        </service>
+98        <service
+98-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Lovey\.gradle\caches\transforms-3\803371e4dc1603eaf673a58c4ca7d2f3\transformed\transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+99            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+99-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Lovey\.gradle\caches\transforms-3\803371e4dc1603eaf673a58c4ca7d2f3\transformed\transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+100            android:exported="false"
+100-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Lovey\.gradle\caches\transforms-3\803371e4dc1603eaf673a58c4ca7d2f3\transformed\transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+101            android:permission="android.permission.BIND_JOB_SERVICE" >
+101-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Lovey\.gradle\caches\transforms-3\803371e4dc1603eaf673a58c4ca7d2f3\transformed\transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+102        </service>
+103
+104        <receiver
+104-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Lovey\.gradle\caches\transforms-3\803371e4dc1603eaf673a58c4ca7d2f3\transformed\transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+105            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+105-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Lovey\.gradle\caches\transforms-3\803371e4dc1603eaf673a58c4ca7d2f3\transformed\transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+106            android:exported="false" />
+106-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Lovey\.gradle\caches\transforms-3\803371e4dc1603eaf673a58c4ca7d2f3\transformed\transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+107    </application>
+108
+109</manifest>

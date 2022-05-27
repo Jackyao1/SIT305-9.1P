@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\display_advert.xml",
+        "source": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\src\\main\\res\\layout\\display_advert.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\advert.xml",
+        "source": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\src\\main\\res\\layout\\advert.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\show_all_advert.xml",
+        "source": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\src\\main\\res\\layout\\show_all_advert.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\create_advert.xml",
+        "source": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\src\\main\\res\\layout\\create_advert.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\advert_post.xml",
+        "source": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\src\\main\\res\\layout\\advert_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\show_on_map.xml",
+        "source": "C:\\Users\\Lovey\\Desktop\\305 9.1 final clean\\app\\src\\main\\res\\layout\\show_on_map.xml"
+    }
+]
